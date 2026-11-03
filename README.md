@@ -30,19 +30,20 @@ Break-even for the $490,000 programme: prevent 0.1126 breaches, or remove 45.1% 
 
 ## Corrections to the brief
 
-The brief's Campaign A and C exposures, email-filtering ROI, 90% risk-reduction total and 22.1% overall credential rate do not follow from its own formulas, and several statements are unsupported (the 93.75% breach probability, the industry-average column, and the treatment of accounts as independent breaches). Details and corrected values are in the report (Section 6) and the workbook (`Corrections` sheet).
+The brief's Campaign A and C exposures, email-filtering ROI, 90% risk-reduction total, and 22.1% overall credential rate do not follow from its own formulas, and several statements are unsupported (the 93.75% breach probability, the industry-average column, and the treatment of accounts as independent breaches). Details and corrected values are in the report (Section 6) and the workbook (`Corrections` sheet).
 
 ## Repository map
 
 | Path | Content |
 |---|---|
 | `spreadsheet/Lab3A_Phishing_Risk_Workbook.xlsx` | Calculation workbook with visible formulas (README_Assumptions, Inputs, Phase1_Rates, Phase2_Exposure, Controls, Risk_Matrix, Statistics, Corrections) |
-| `docs/Lab3A_Phishing_Risk_Report.docx` | Written report with the executive briefing, risk matrix, statistics, corrections and limitations |
+| `docs/Lab3A_Phishing_Risk_Report.docx` | Written report with the executive briefing, risk matrix, statistics, corrections, and limitations |
+| `docs/Lab3A_Phishing_Risk_Report.pdf` | Written report with the executive briefing in PDF format, risk matrix, statistics, corrections and limitations |
 
 ## Assumptions and limitations
 
-Breach cost, the 25% breach probability and the control effectiveness percentages are scenario assumptions from the brief, not verified benchmarks. Attack frequency (1 a year in the base case) is my assumption, with a sensitivity table. The three campaigns used different target groups and sample sizes, so comparisons are indicative. Full list: report Section 7.
+Breach cost, the 25% breach probability, and the control effectiveness percentages are scenario assumptions from the brief, not verified benchmarks. Attack frequency (1 a year in the base case) is my assumption, with a sensitivity table. The three campaigns used different target groups and sample sizes, so comparisons are indicative. Full list: report Section 7.
 
 ## AI-assistance declaration
 
-I used Claude (Anthropic) throughout this lab for explanation of the formulas, checking my work against the brief, finding the errors in it, building the workbook and drafting the report. I reviewed the results and spot-checked the key figures in the workbook myself. Full declaration: report Section 8.
+I used Claude (Anthropic) in this lab for a more in-depth explanation of the formulas, checking/scrutizing my work against the brief, finding the errors in it, building the workbook, and drafting the report. I reviewed the results and spot-checked the key figures in the workbook myself. The full declaration is in report Section 8.
